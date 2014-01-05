@@ -1,0 +1,18 @@
+1. Fortran comments are preceded by an exclamation mark.
+
+2. No, Fortran is not case sensitive.
+
+3. Intrinsic functions are built-in functions in Fortran. 
+ Examples: Intrinsic mathematical functions like SQRT(x) for finding square root of a number X, LOG(X) for natural logarithm ; conversion functions like FLOOR(X) , FRACTION(X)
+
+4. Difference between function and subroutine is that function returns a value (using a return statement) whereas subroutines dont have a return statement.
+
+5. Integer and real variables in Fortran can be implicitly typed by using the FORTRAN naming convention. This convention states that a variable beginning with i, j, k, l, m, or n is an integer, and all other variables are real.
+
+6. Implicit none statement is used to override implicit typing.
+
+7. Common block is a shared memory area, used for passing information between program units. The data stored in common block is passed between program units through a 'COMMON' statement at the begnning of each program unit.
+
+8. A module is a program unit that packages collections of declarations and subprograms.
+These can be imported to other subprograms and re-used. A module contains declarations and functions that can be used by other modules and functions.
+  
